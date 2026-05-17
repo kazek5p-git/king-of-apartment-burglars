@@ -109,6 +109,11 @@ h3 {
   font-size: 1.12rem;
 }
 
+.lead.secondary {
+  margin-top: 8px;
+  font-size: 1.02rem;
+}
+
 .notice {
   max-width: 760px;
   margin-top: 18px;
@@ -307,6 +312,15 @@ a {
 
 .signal-dot.red {
   background: var(--accent);
+}
+
+.language-divider {
+  margin-top: 18px;
+  padding: 34px 0;
+}
+
+.language-divider h2 {
+  font-size: 1.8rem;
 }
 
 @media (max-width: 620px) {

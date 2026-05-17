@@ -4,38 +4,174 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>King of Apartment Burglars</title>
-  <meta name="description" content="Oficjalna strona gry King of Apartment Burglars, z informacjami o prywatności i wsparciu.">
+  <meta name="description" content="King of Apartment Burglars to fikcyjna gra audio na iOS o abstrakcyjnych zamkach, VoiceOverze i krótkim oknie reakcji pod drzwiami.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <img src="assets/app-icon.png" alt="" class="app-icon" width="96" height="96">
-    <div>
-      <p class="eyebrow">Gra audio na iPhone'a</p>
+  <header class="site-header hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Gra audio na iOS</p>
       <h1>King of Apartment Burglars</h1>
-      <p class="lead">Fikcyjna gra audio o abstrakcyjnych zamkach, tworzona najpierw z myślą o niewidomych graczach, z warstwą wizualną dla graczy widzących.</p>
+      <p class="lead">Fikcyjna gra o napięciu pod drzwiami, słuchaniu pracy zamka i jednej reakcji, która decyduje, czy robota pójdzie czysto.</p>
+      <p class="notice">To nie jest instrukcja realnego włamywania się ani zachęta do łamania prawa. Mechanika zamka jest abstrakcyjna i służy wyłącznie rozgrywce.</p>
+      <nav class="link-row hero-actions" aria-label="Product links">
+        <a href="privacy/">Polityka prywatności</a>
+        <a href="support/">Wsparcie</a>
+      </nav>
+    </div>
+    <div class="hero-art" aria-label="Informacje o aplikacji">
+      <img src="assets/app-icon.png" alt="Ikona King of Apartment Burglars" class="app-icon large" width="144" height="144">
+      <dl class="fact-list">
+        <div>
+          <dt>Platforma</dt>
+          <dd>iPhone i iPad</dd>
+        </div>
+        <div>
+          <dt>Dostępność</dt>
+          <dd>VoiceOver, dźwięk, gesty</dd>
+        </div>
+        <div>
+          <dt>Tryby</dt>
+          <dd>Adresy, szkolenie, samouczek</dd>
+        </div>
+      </dl>
     </div>
   </header>
 
   <main>
-    <section lang="pl">
-      <h2>O grze</h2>
-      <p>King of Apartment Burglars to fikcyjna gra o nowym członku ekipy, który próbuje przejść serię coraz trudniejszych adresów. Wersja iOS skupia się na abstrakcyjnej mechanice zamka, sygnałach dźwiękowych, wyczuciu czasu, treningu i nawigacji przyjaznej dla VoiceOver.</p>
-      <p>Kryminalna otoczka jest elementem fikcji. Aplikacja nie uczy prawdziwego włamywania się i nie zachęca do łamania prawa.</p>
+    <section class="intro-grid" lang="pl">
+      <div>
+        <p class="eyebrow">O grze</p>
+        <h2>Audio, czas i nerwy pod kontrolą</h2>
+      </div>
+      <div>
+        <p>Wcielasz się w nowego człowieka w gangu, który trafia na bogate osiedle pełne willi, apartamentów i penthouse'ów. Obecna wersja skupia się na pierwszym filarze roboty: łamaniu zamków.</p>
+        <p>Słuchasz pracy wytrycha, czekasz na pełny obrót, reagujesz w krótkim oknie i po otwarciu zamka błyskawicznie przechodzisz na klamkę. W jednej rundzie masz tylko trzy wtopy.</p>
+      </div>
+    </section>
+
+    <section class="feature-grid" aria-label="Najważniejsze cechy">
+      <article class="feature-card">
+        <h2>12 adresów</h2>
+        <p>Każdy kolejny adres ma mocniejszy zamek, większą stawkę i wyższą rangę w półświatku. Zaczynasz nisko, ale możesz dojść do fortecy na dachu.</p>
+      </article>
+      <article class="feature-card">
+        <h2>Szkolenie</h2>
+        <p>Trening używa tej samej sceny drzwi, tych samych gestów i tego samego modelu reakcji co prawdziwe adresy.</p>
+      </article>
+      <article class="feature-card">
+        <h2>Samouczek dźwięków</h2>
+        <p>Każdy ważny znak audio można odsłuchać osobno i od razu sprawdzić, co oznacza dla gracza słuchającego oraz widzącego.</p>
+      </article>
+    </section>
+
+    <section class="split-section" lang="pl">
+      <div>
+        <p class="eyebrow">Fabuła</p>
+        <h2>Jedna noc, osiedle bogaczy i plan na dwanaście drzwi</h2>
+      </div>
+      <div>
+        <p>Gang od lat siedzi na lufie policji, ale nikt nie umie go dopaść. Boss przynosi cynk o osiedlu, gdzie za bramami stoją mieszkania ludzi pilnujących sejfów jak własnych tajemnic.</p>
+        <p>Plan jest prosty tylko na papierze: wejść cicho, nie spalić roboty i przechodzić przez coraz trudniejsze zamki. Spóźnienie, zbyt szybkie popchnięcie wytrycha, zły tryb albo przegapienie otwartych drzwi liczy się przeciwko tobie.</p>
+        <p class="small-note">Muzyka w dziupli została użyta za zgodą Piotra Tarasewicza.</p>
+      </div>
     </section>
 
     <section lang="pl">
-      <h2>Dostępność</h2>
-      <p>Gra jest zbudowana wokół dźwięku i czytelnego zachowania czytnika ekranu. Menu używają natywnych kontrolek iOS, scena zamka opiera się na sygnałach audio, a warstwa wizualna pokazuje ten sam rytm bez ujawniania ukrytego postępu.</p>
+      <div class="section-heading">
+        <p class="eyebrow">Jak działa zamek</p>
+        <h2>Nie reagujesz na wszystko. Reagujesz na właściwy moment.</h2>
+      </div>
+      <ol class="step-list">
+        <li>
+          <strong>Pracujesz wytrychem.</strong>
+          <span>Słyszysz losowe dźwięki pracy zamka. Przy zwykłych obrotach czekasz.</span>
+        </li>
+        <li>
+          <strong>Pełny obrót oznacza akcję.</strong>
+          <span>Gdy usłyszysz właściwy sygnał, dotykasz sceny jednym palcem albo wciskasz Enter. Za wcześnie i za późno oznacza wtopę.</span>
+        </li>
+        <li>
+          <strong>Zamek puszcza tylko na chwilę.</strong>
+          <span>Przesuwasz palcem w górę albo w dół, przechodzisz na klamkę i od razu dotykasz sceny, żeby wejść.</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="signal-band" lang="pl">
+      <div class="section-heading">
+        <p class="eyebrow">Sygnały</p>
+        <h2>Ten sam rytm dla ucha i oka</h2>
+      </div>
+      <div class="signal-grid">
+        <article>
+          <span class="signal-dot amber"></span>
+          <h3>Bursztynowy błysk</h3>
+          <p>Pełny obrót. Dotknij sceny teraz, bez zmiany trybu.</p>
+        </article>
+        <article>
+          <span class="signal-dot green"></span>
+          <h3>Zielona lampka</h3>
+          <p>Zamek puścił. Szybko przejdź na klamkę i wejdź.</p>
+        </article>
+        <article>
+          <span class="signal-dot red"></span>
+          <h3>Czerwony błysk</h3>
+          <p>Błąd: zbyt szybka reakcja, spóźnienie albo zły tryb.</p>
+        </article>
+      </div>
+      <p>Widzący gracze widzą scenę adresu, zamek, klamkę, lampkę i ruch ręki, ale nie dostają paska postępu ani licznika siły zamka. Obraz nie jest ściągą, tylko drugą warstwą tych samych sygnałów.</p>
+    </section>
+
+    <section class="split-section" lang="pl">
+      <div>
+        <p class="eyebrow">Dostępność</p>
+        <h2>Zbudowane wokół VoiceOvera i bezpośredniej interakcji</h2>
+      </div>
+      <div>
+        <p>Menu, dialogi, szkolenie, fabuła, kartoteka, samouczek dźwięków oraz komunikaty po sukcesie i porażce są czytane normalnie przez VoiceOver.</p>
+        <p>Pod drzwiami scena zamka działa inaczej: VoiceOver nie powinien zagadywać mechaniki, więc fokus zostaje na obszarze drzwi, a gra przejmuje dotyk potrzebny do reakcji na dźwięki.</p>
+      </div>
+    </section>
+
+    <section lang="pl">
+      <div class="section-heading">
+        <p class="eyebrow">Sterowanie</p>
+        <h2>Dotyk, VoiceOver i klawiatura sprzętowa</h2>
+      </div>
+      <div class="control-grid">
+        <article>
+          <h3>Dotyk</h3>
+          <p>Jedno dotknięcie sceny wykonuje aktualną akcję. Pionowe przesunięcie jednym palcem zmienia tryb między wytrychem i klamką. Gest dwoma palcami w dół wraca do dziupli.</p>
+        </article>
+        <article>
+          <h3>VoiceOver</h3>
+          <p>W menu działają zwykłe flicki. W samouczku dźwięków aktywacja przycisku odtwarza próbkę od początku, a komunikaty po rundzie można przeczytać ponownie.</p>
+        </article>
+        <article>
+          <h3>Klawiatura</h3>
+          <p>Enter wykonuje akcję, Y albo W zmienia tryb, strzałki powtarzają wybrane meldunki, a Escape wraca tam, gdzie iOS pozwala to sensownie obsłużyć.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="roadmap" lang="pl">
+      <div>
+        <p class="eyebrow">Co dalej</p>
+        <h2>Po wejściu do mieszkania gra ma dostać drugi etap ryzyka</h2>
+      </div>
+      <p>W planie jest zbieranie łupów na czas, ryzykowanie kolejnych sekund, ucieczka przed policją i ranking online. Obecna wersja stawia fundament: zamek, dźwięk, refleks, trening, lokalny postęp i czytelną warstwę wizualną.</p>
     </section>
 
     <section lang="en">
-      <h2>English</h2>
-      <p>King of Apartment Burglars is a fictional lock audio game designed first for blind players, with a visual door scene for sighted players. The current iOS version focuses on abstract lock gameplay, sound cues, timing, training, and VoiceOver-friendly navigation.</p>
-      <p>The criminal setting is fictional. The app does not teach real burglary and does not encourage breaking the law.</p>
+      <div class="section-heading">
+        <p class="eyebrow">English</p>
+        <h2>Accessible fictional audio lock game</h2>
+      </div>
+      <p>King of Apartment Burglars is a fictional iOS audio game built around sound cues, timing, VoiceOver, training, and a visual door scene for sighted players. It is an abstract game and does not teach real burglary.</p>
     </section>
 
-    <nav class="link-row" aria-label="Product links">
+    <nav class="link-row footer-links" aria-label="Product links">
       <a href="privacy/">Polityka prywatności / Privacy Policy</a>
       <a href="support/">Wsparcie / Support</a>
     </nav>

@@ -23,9 +23,9 @@ Static GitHub Pages site for App Store Connect support and privacy URLs.
 
 ## Privacy Notes
 
-The current app version does not require an account, login, payments, ads, analytics, tracking, or network features. Settings and progress are local.
+The current app version does not require an account, login, payments, ads, analytics, tracking, or a non-ranking network connection. Settings and progress stay local until the player uses the optional ranking server for send/recover/reset and leaderboard viewing.
 
-The privacy page intentionally mentions the planned future server-based online leaderboard. If that feature is enabled publicly, update this privacy page and the App Store Privacy form before release.
+The privacy page describes the active ranking server and the actual data sent for send/recover/reset and leaderboard viewing. If that data set changes, update this privacy page and the App Store Privacy form before release.
 
 ## Deployment
 
